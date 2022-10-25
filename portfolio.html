@@ -253,6 +253,7 @@
               </ul>
             </address>
           </div>
+
           <div>
             <span class="cta">Приєднуйтесь</span>
             <ul class="socials-list list">
@@ -286,11 +287,19 @@
               </li>
             </ul>
           </div>
+
           <div>
             <span class="cta">Підпишіться на розсилку</span>
-            <form action="">
-              <input class="cta-input" type="email" name="email" placeholder="E-mail" />
-              <button class="button primary">
+            <form class="subscribe-form">
+              <label class="visually-hidden" for="subscribe-email">E-mail</label>
+              <input
+                class="subscribe-input"
+                id="subscribe-email"
+                type="email"
+                name="subscribe-email"
+                placeholder="E-mail"
+              />
+              <button class="button primary" type="submit">
                 Підписатися
                 <svg width="24" height="24">
                   <use href="./images/icons.svg#icon-send"></use>
